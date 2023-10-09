@@ -1,0 +1,16 @@
+{
+    "name": "Flask Web",
+    "dockerComposeFile": "compose.yml",
+    "service": "web",
+        "workspaceFolder": "/home/user1/dev",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python"
+                ] ,
+        "settings": {
+            "editor.tabsize": 2
+            }
+        }
+    }
+}
